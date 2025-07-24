@@ -1,0 +1,21 @@
+# group_leave_plugin - 自动生成的配置文件
+# 群聊退群插件，提供主动退群功能
+
+[plugin]
+enabled = true
+config_version = "0.0.1"
+
+[components]
+enable_leave_command = true
+
+default_message = "机器人已主动退出本群，有需要请重新邀请。"
+
+[permissions]
+allowed_users = ['qq:2367677516']
+allowed_groups = []
+
+[logging]
+level = "INFO"
+prefix = "[GroupLeavePlugin]"
+include_user_info = true
+include_action_info = true
